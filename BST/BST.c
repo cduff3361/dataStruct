@@ -87,6 +87,7 @@ Node* insertNode(Node* root, int keyValue)
 
 Node* findSuccessor(Node* root)
 {
+	//Successor is the leftmost node on the root's right subtree
 	Node* successor = root->right;
 	
 	Node* temp = successor->left;
