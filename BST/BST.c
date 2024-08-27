@@ -108,7 +108,7 @@ Node* deleteNode(Node* root, int keyValue)
 		return root;
 	}
 	
-	//Search for node to delete
+	//Search for node to delete ///
 	if(root->key > keyValue){
 		root->left = deleteNode(root->left, keyValue);
 	}
