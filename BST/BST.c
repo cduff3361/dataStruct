@@ -103,7 +103,9 @@ Node* findSuccessor(Node* root)
 
 Node* deleteNode(Node* root, int keyValue)
 {
-
+	/*const int abc = (0x1 << 3);
+	printf("%d", abc);*/
+	
 	if(root == NULL){
 		return root;
 	}
